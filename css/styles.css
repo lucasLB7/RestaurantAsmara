@@ -1,0 +1,9 @@
+@font-face {
+    font-family: new_font;
+    src: url(sansation_light.woff);
+}
+
+img {
+  /*height: 200%;*/
+  width: 100%;
+}
