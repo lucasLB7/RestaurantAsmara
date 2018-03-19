@@ -10,7 +10,7 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
+  margin: 2%;
 }
 article,
 aside,
@@ -61,7 +61,7 @@ dfn {
 }
 h1 {
   margin: .67em 0;
-  font-size: 2em;
+  font-size: 10em;
 }
 mark {
   color: #000;
@@ -85,6 +85,8 @@ sub {
 }
 img {
   border: 0;
+  height: 40px;
+  width: 40px;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -278,6 +280,10 @@ th {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.hidden {display:none;
+}
+.boo {color: red;}
+
 .glyphicon-asterisk:before {
   content: "\002a";
 }

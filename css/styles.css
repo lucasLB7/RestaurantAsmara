@@ -1,9 +1,22 @@
 @font-face {
-    font-family: new_font;
+    font-family: new_;
     src: url(sansation_light.woff);
 }
 
-img {
-  /*height: 200%;*/
-  width: 100%;
+
+div.col-sm-4 {
+  background-color: grey;
+}
+div.col-sm-4 img {
+  border-radius: 50%;
+  height: 5%;
+
+}
+
+div.container-fluid {
+  text-align: center;
+}
+
+#headerBackGroundImage {
+  background-image: url(../images/1.jpg);
 }
