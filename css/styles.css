@@ -1,22 +1,32 @@
 @font-face {
-    font-family: new_;
-    src: url(sansation_light.woff);
+    font-family: hearderFont_;
+    src: url(../fonts/OstrichSans-Black.otf);
 }
 
 
 div.col-sm-4 {
-  background-color: grey;
+  background-color: none;
 }
 div.col-sm-4 img {
+  border: 2px white solid;
   border-radius: 50%;
-  height: 5%;
-
+  height: 200px;
+  width: 200px;
 }
+
 
 div.container-fluid {
   text-align: center;
 }
 
 #headerBackGroundImage {
-  background-image: url(../images/1.jpg);
+  background-image: url(../images/background.png);
+  background-size:contain;
+  opacity: .5;
+}
+
+#blackeHeaders {
+  font-family: headerFont;
+  color: black;
+
 }
