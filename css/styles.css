@@ -37,7 +37,10 @@ div.container-fluid {
 }
 
 
-.jumbotron img {
-  height: 100px;
-  width: auto;
+#images_hover_grow img,
+#images_hover_grow img:hover {
+  border: 3px white solid;
+  transition: all .2s ease-in-out;
+  float:left
+  border-radius:50%
 }
