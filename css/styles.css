@@ -30,3 +30,14 @@ div.container-fluid {
   color: black;
 
 }
+
+
+#clear_rounded {
+  border: 3px white solid;
+}
+
+
+.jumbotron img {
+  height: 100px;
+  width: auto;
+}
